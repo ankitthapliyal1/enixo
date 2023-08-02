@@ -1,0 +1,93 @@
+<header>
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="logo mt-2">
+                    <img routerLink="home" src="assets/img/logo.png" alt="Logo">
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 text-end">
+
+                <div class="menu_icon" [class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu" [class.menuClass]="menuVariable">
+                    <ul>
+                        <li routerLinkActive="active" routerLink="home" (click)="close()">HOME</li>
+                        <li>SERVICES</li>
+                        <li>SOLUTIONS</li>
+                        <li>OUR WORKS</li>
+                        <li>
+                            ABOUT US <img class="down-e" src="assets/img/down.png" alt="">
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li routerLink="overview" class="hover-me"><a>OVERVIEW</a> </li>
+                                    <li routerLink="career" class="hover-me"><a>CAREERS </a> </li>
+                                    <li routerLink="industries" class="hover-me"><a>INDUSTRIES </a> </li>
+                                    <li routerLink="client" class="hover-me"><a>CLIENTELE </a> </li>
+                                    <li routerLink="testimonial" class="hover-me"><a>TESTIMONIALS </a> </li>
+                                    <li routerLink="blogs" class="hover-me"><a>BLOGS </a> </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li routerLinkActive="active" routerLink="contact">CONTACT US</li>
+
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div >
+        
+        <div>
+            <img width="100%" src="assets/img/home1.png" alt="">
+
+        </div>
+
+        <div class="qq-quote">
+            <div *ngIf="!aboutus" class="qq-mt">
+                <div class="qq-heading">500+</div>
+                <div class="qq-color"> Completed Projects</div>
+            </div>
+
+            <div *ngIf="!aboutus" class="qq-vr"></div>
+
+            <div *ngIf="!aboutus" class="qq-mt">
+                <div class="qq-heading">100+ M</div>
+                <div class="qq-color">Downloads</div>
+            </div>
+
+            <div *ngIf="!aboutus" class="qq-vr"></div>
+
+            <div *ngIf="!aboutus" class="qq-mt">
+                <div class="qq-heading">100+</div>
+                <div class="qq-color">Happy Clients</div>
+            </div>
+            <div *ngIf="!aboutus" class="qq-vr"></div>
+
+            <div *ngIf="aboutus" class="qq-mt q-aboutus">
+                <div class="qq-heading" >A GOOD TEAM MAKES A GREAT TEAM</div>
+                <div class="qq-color">We are specialized in developing out -of -the- box solutions using emerging
+                    technologies</div>
+            </div>
+
+            <div class="qq-mt qq-pointer">
+                <img height="50" routerLink="/contact" src="assets/img/quote.png" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+</header>

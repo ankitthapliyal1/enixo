@@ -1,0 +1,58 @@
+<main>
+    <div class="qq-heading text-center">
+        JOIN OUR FAMILY OF TALENTS
+    </div>
+    <p class="text-center">Build valuable skills and grow your career alongside other ambitious people. Gain knowledge
+        from experienced personnel from your discipline, achieve your
+        career objectives, and be a part of an environment where fun and work come in equal measures.</p>
+
+
+    <div class="qq-heading text-center">
+        <p>
+            All at the same time.
+        </p>
+        OPEN POSITIONS
+    </div>
+
+    <div>
+
+        <div class="accordion">
+            <div class="accordion-item" *ngFor="let item of positions; let i = index">
+                <input type="checkbox" id="accordion-item-{{i}}" class="accordion-item-checkbox">
+                <label for="accordion-item-{{i}}" class="accordion-item-label">
+                    <span class="accordion-item-position">{{item.title}}</span>
+                    <span class="accordion-item-location">{{item.location}}</span>
+                    <span class="accordion-item-arrow"></span>
+                </label>
+                <div class="accordion-item-content">
+                    <div class="p-4">
+                        <div >
+                            <span class="head"> Department:</span> <br>
+                            <span class="desc"> Digital Marketing</span>
+                        </div>
+                        <div class="mt-2">
+                            <span class="head">    Position: </span> <br>
+                            <span class="desc">Content Writer I, Content Writer II </span>
+                        </div>
+                        <div class="mt-2">
+                            <span class="head">   Relevant Experience: </span> <br>
+                            <span class="desc">  2 to 5 years </span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-2">
+                           <span class="head" style="text-decoration: underline;"> View Job Description</span>
+                            <button class="btnn">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+        </div>
+
+
+    </div>
+
+
+
+</main>

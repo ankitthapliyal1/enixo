@@ -1,0 +1,53 @@
+
+.btnn{
+    background: #C52D2D;
+    color: #fff !important;
+    border-radius: 0;
+   float: right;
+    }
+
+h4 {
+    color: #616161;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.qq-flexx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogs {
+    background: #E1E1E1;
+    
+    width: 100%;
+    max-width: 600px;
+    /* Adjust the max-width as per your preference */
+    margin-bottom: 20px;
+    padding: 20px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    p{
+        color: #7C7C80;
+        margin: 0;
+    }
+
+    span{
+        color: #0E64E5;
+        font-weight: 500 !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .blogs {
+        width: calc(50% - 10px);
+        /* Adjust the width and margin as per your preference */
+        margin-right: 10px;
+    }
+}

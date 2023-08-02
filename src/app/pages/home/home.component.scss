@@ -1,0 +1,400 @@
+.qq-head {
+    text-align: center;
+    // width: 80%;
+    // margin: 130px auto auto auto;
+
+}
+
+
+.icon-img {
+    img {
+        margin-top: -15px;
+    }
+
+}
+
+
+.qq-brands {
+    background: #181820;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.qq-brands1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 35px;
+
+    .qq-container1 {
+        display: flex;
+        animation: slideLeftToRight 15s linear infinite;
+        width: max-content; /* Adjust container width based on content */
+      }
+      
+      .qq-mt {
+        flex: 0 0 auto;
+        margin-right: 10px; /* Adjust the spacing between images */
+      }
+      
+      @keyframes slideLeftToRight {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      
+      
+      
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    // background: #f1f1f1;
+}
+
+
+
+
+.qq-flex {
+    display: flex;
+    // position: relative;
+}
+
+.qq-client {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+
+    p {
+        font-weight: 600;
+    }
+}
+
+.qq-red {
+    display: flex;
+    padding: 40px 40px;
+    text-align: start;
+    background-color: #C9526D;
+    color: #fff;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 25px;
+    margin-top: 30px;
+}
+
+.qq-green {
+    display: flex;
+    padding: 40px 40px;
+    text-align: start;
+    background-color: #279B7C;
+    color: #fff;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 25px;
+    margin-top: 50px;
+
+}
+
+.qq-blue {
+    margin-top: 50px;
+    display: flex;
+    padding: 40px 40px;
+    text-align: start;
+    background-color: #3D87C1;
+    color: #fff;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 25px;
+
+}
+
+.light {
+    color: #000 !important;
+}
+
+.qq-box1 {
+    background: #181820;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+
+    .qq-heading {
+        color: #FF5D5D;
+    }
+}
+
+.qq-box2 {
+    background: #181820;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 70px;
+
+    .qq-heading {
+        color: #5DD8FF;
+    }
+}
+
+.qq-box3 {
+    background: #181820;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+
+    .qq-heading {
+        color: #FEC95E;
+    }
+}
+
+.qq-box4 {
+    background: #181820;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 0px;
+
+    .qq-heading {
+        color: #74FF5D;
+    }
+}
+
+.kingimg {
+    width: 400px;
+}
+
+.qq-flex1 {
+    display: flex;
+
+}
+
+.qq-mid-text {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.teamwork {
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+.checkout {
+    position: absolute;
+    top: 86%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+.project-div {
+    display: flex;
+    justify-content: center;
+
+
+    .project {
+        background: #1e1e26;
+        margin-bottom: 10px;
+        border-radius: 40px 48px 49px 40px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 40px 48px 49px 40px;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+
+.qq-award {
+    padding: 40px;
+    background: #181820;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+@media(max-width:"1050px") {
+    .qq-quote {
+        position: relative;
+        background-color: #0c0819;
+        flex-wrap: wrap;
+
+    }
+
+    // .qq-brands1 {
+    //     // flex-wrap: wrap;
+    //     // justify-content: center;
+    //     overflow-x: scroll;
+
+    // }
+
+    .qq-mt {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .qq-award {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:"900px") {
+    .contact-form {
+        width: 80%;
+    }
+
+    .qq-flex1 {
+        position: relative;
+    }
+
+    .kingimg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 0.4;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+@media(max-width:"900px") {
+    .qq-client {
+        display: block;
+    }
+
+    .qq-man {
+        opacity: 0.4;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translate(0%, 16%);
+
+    }
+}
+
+
+@media(max-width:"800px") {
+
+
+
+    .qq-red,
+    .qq-blue,
+    .qq-green {
+        position: relative;
+    }
+
+
+
+    .red-img,
+    .green-img,
+    .blue-img {
+        position: absolute;
+        opacity: 0.4;
+        top: 120px;
+    }
+
+    .qq-award {
+        .d-flex {
+            display: block !important;
+        }
+    }
+
+}
+
+
+@media(max-width:"670px") {
+
+    .teamwork {
+        display: block;
+    }
+
+    .checkout {
+        left: 70%;
+        top: 90%;
+    }
+
+}
+
+
+@media(max-width:"500px") {
+
+    // .qq-brands1 {
+    //     overflow: scroll;
+    // }
+
+    .qq-flex1 {
+        display: inline;
+    }
+
+
+
+    .imgg {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-div {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+
+
+    .project-div {
+        .mt-5 {
+            margin-top: 20px !important;
+        }
+    }
+}

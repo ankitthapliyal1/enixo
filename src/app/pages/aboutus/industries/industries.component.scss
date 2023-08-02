@@ -1,0 +1,63 @@
+main{
+    background-image: url('/assets/img/dotedbg.png');
+}
+
+.qq-heading {
+    color: rgba(24, 24, 32, 0.76);
+}
+
+
+
+
+
+.qq-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-radius: 11px;
+background: #E1E1E1;
+padding: 10px;
+}
+
+.qq-team {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    margin-bottom: 20px;
+    padding: 14px;
+    text-align: center;
+
+    span {
+
+        color: #4D4D53;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+}
+
+
+.qq-team img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .qq-team {
+        flex: 0 0 calc(50% - 10px);
+        /* Adjust the width as needed */
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .qq-flex {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .qq-team{
+       max-width: 100%;
+    }
+}

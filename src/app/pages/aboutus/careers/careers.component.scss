@@ -1,0 +1,104 @@
+.qq-heading {
+    color: rgba(24, 24, 32, 0.76);
+}
+
+.btnn{
+background: #C52D2D;
+color: #fff !important;
+border-radius: 0;
+}
+
+
+// accordion
+.accordion {
+    width: 90%;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    background: #E1E1E1;
+    border: none;
+    border-radius: 0;
+}
+
+.accordion-item-checkbox {
+    display: none;
+}
+
+.accordion-item-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 35px;
+    background: #E1E1E1;
+    transition: background 0.3s ease;
+}
+
+
+
+.accordion-item-label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    width: 8px;
+    height: 8px;
+    transition: transform 0.3s ease;
+    transform: rotate(317deg);
+}
+
+.accordion-item-position {
+    color: #7C7C80;
+    font-size: 25px;
+    font-weight: 600;
+    width: 60%;
+}
+
+.accordion-item-location {
+    color: #262A34;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.accordion-item-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #E1E1E1;
+    transition: max-height 0.3s ease;
+    border-top: 10px solid #fff;
+    color: #7C7C80;
+
+    .head {
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    .desc {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+}
+
+.accordion-item-checkbox:checked+.accordion-item-label {
+    background: linear-gradient(to right, #E1E1E1 35%, #5DD8FF 35%);
+    /* Add gradient background */
+}
+
+
+.accordion-item-checkbox:checked+.accordion-item-label::after {
+    transform: rotate(45deg)
+        /* Update transform */
+}
+
+.accordion-item-checkbox:checked+.accordion-item-label+.accordion-item-content {
+    max-height: 1000px;
+    /* Adjust to a value larger than the content's height */
+}

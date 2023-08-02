@@ -1,1 +1,170 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Montserrat:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Alumni Sans;   
+}
+
+.w{
+    color: #fff;
+}
+
+P{
+    color: #484853;
+font-size: 22px;
+font-family: Alumni Sans;
+font-weight: 600;
+}
+
+.qq-container{
+    width: 90%;
+    margin: auto;
+}
+
+.qq-color{
+    color: #5DD8FF !important;
+}
+
+.qq-color-green{
+    color: #01E7B2;
+}
+
+.qq-color-blue{
+    color: #75CAF8;
+}
+
+.qq-color-red{
+    color: #EE709D;
+}
+
+.qq-color-yellow{
+    color: #FED043;
+}
+ 
+.btnn{
+    background-color: #181820;
+    color: #5DD8FF !important;
+    font-weight: 600;
+    padding: 8px 35px;
+    border-radius: 50px;
+    max-width: max-content;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+
+.qq-container{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+
+}
+
+.qq-heading {
+    // color: rgba(24, 24, 32, 0.76);
+    font-size: 45px;
+    font-family: Alumni Sans;
+    font-weight: 700;
+}
+
+main{
+    width: 90%;
+    margin: 20px auto 20px auto;
+   padding-bottom: 50px;
+
+}
+
+.qq-pointer{
+    cursor: pointer;
+}
+
+.qq-filter{
+    filter: brightness(0.2);
+}
+
+.qq-girlbg{
+    background-image: url(/assets/img/girlbg.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.contact-form{
+    width: 60%;
+    margin: auto;
+    background: #E1E1E1;
+    border-radius: 15px;
+   
+    
+    display: flex;
+
+    .contactus{
+        writing-mode: vertical-rl;
+        -webkit-transform: rotate(180deg);
+        color: #5DD8FF;
+        background: #181820;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding:   50px 20px;
+        text-align: center;
+       
+    }
+
+    label{
+        color: #8F8F92;
+        font-weight: 700;
+    }
+
+    input{
+        width: 100%;
+        height: 45px;
+        border: none;
+        background: lightgrey;
+        border-radius: 8px;
+       padding: 10px;
+    }
+
+    textarea{
+        margin-top: 25px;
+        width: 100%;
+        height: 150px;
+        border: none;
+        background: lightgrey;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .qq-form{
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+@media(max-width:"500px"){
+    .qq-heading{
+        font-size: 35px;
+    }
+
+    .contact-form{
+        .contactus{
+            padding: 0;
+        }
+    
+        .qq-form{
+            padding: 10px;
+        }
+       }
+}
+
+@media(max-width:"670px"){
+.contact-form{
+    width: 90%;
+}
+
+}
+
+

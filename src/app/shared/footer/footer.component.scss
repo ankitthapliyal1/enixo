@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // line-height: 1.5;
+    
+}
+
+.heading{
+    color: #fff;
+    padding: 0px 0px 25px 20px;
+}
+
+.heading2{
+    color: #fff;
+    margin-bottom: 15px;
+
+    .h5{
+        font-size: 25px;
+    }
+}
+
+.container{
+    max-width: 1270px;
+   
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    // background-color: #F0F0F0;
+    // padding: 50px 0px;
+    background-color: #181818;
+    color: #fff;
+    padding: 50px 0;
+   
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0px 20px;
+    color: #5DD8FF;
+}
+
+.footer-col h4{
+    font-size: 25px;
+    // color: #ffff;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+    
+}
+
+.footer-col ul li a  {
+    font-size: 22px !important;
+    text-transform: none !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    display: block !important;
+    transition: all 0.3s ease !important;
+    
+}
+
+.footer-col ul li a:hover {
+    color: rgb(224, 221, 221) !important;
+    padding-left: 8px !important;
+}
+
+p {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.footer-col .social-links a {
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    // background-color: rgba(255 , 255 , 255 , 0.2);
+    margin: 0 10px 10px 0;
+    text-align:  center;
+    line-height: 34px;
+    border-radius: 50%;
+    border: 1px solid #412852;
+    // color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+.office{
+    padding: 30px;
+    border: 1px solid #fff;
+}
+
+
+.mrgn{
+    margin-top: -64px;
+}
+
+// Responsive
+
+@media(max-width:767px)  {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+ 
+   
+
+    
+}
+
+@media(max-width:767px)  {
+    .footer-col{
+        width: 100%;
+    }
+
+    .mrgn{
+        margin-top: 0;
+    }
+
+   
+.office{
+    width: 95%;
+    margin: auto;
+}
+
+    
+}
+
+
+
+
+

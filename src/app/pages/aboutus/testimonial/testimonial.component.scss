@@ -1,0 +1,33 @@
+ .text-center {
+    color: rgba(24, 24, 32, 0.76);
+}
+
+h4 {
+    color: #616161;
+    font-weight: 600;
+}
+
+
+
+.qq-flexx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background: #E1E1E1;
+    width: 100%;
+    max-width: 600px;
+    /* Adjust the max-width as per your preference */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+@media (min-width: 576px) {
+    .testimonial {
+        width: calc(50% - 10px);
+        /* Adjust the width and margin as per your preference */
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,272 @@
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 10px 0px;
+    background: #000000;
+    position: relative;
+}
+
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+
+.logo img {
+    // height: 50px;
+    // cursor: pointer;
+    height: 110px;
+    cursor: pointer;
+    top: -18px;
+    position: absolute;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    font-weight: 500;
+    transform: skew(-10deg);
+    color: #FFF;
+    font-family: KoHo;
+
+
+}
+
+.active {
+    color: #181820 !important;
+    background-color: #5DD8FF;
+    //    transform: skew(20deg);
+}
+
+.menu ul li:hover {
+    color: #5DD8FF;
+    // background-color: #5DD8FF;
+    cursor: pointer;
+    // transition: 0.4s ease-in-out;
+    // .down-e{
+    //     filter: brightness(0);
+    // }
+}
+
+.menu {
+    margin-top: 10px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.mr {
+    margin-right: 30px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.down-e {
+    margin-top: -3px;
+    height: 6px;
+}
+
+.menu ul li:hover .sub-menu-1 {
+    display: block;
+    margin-top: 1px;
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    transform: translateX(-52%  ) skew(10deg);
+    background-color: #151527;
+    color: #fff;
+    padding: 10px;
+    border-top: 4px solid #5DD8FF;
+    border-right: 1px solid #5DD8FF;
+    border-bottom: 1px solid #5DD8FF;
+    border-left: 1px solid #5DD8FF;
+
+}
+
+.sub-menu-1::before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #5DD8FF;
+}
+
+.menu ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+
+
+}
+
+.menu ul li:hover .sub-menu-1 ul li {
+    width: 100px;
+    color: #FFF;
+    padding: 2px;
+    display: block;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu-1 ul li a:hover {
+    color: #5DD8FF;
+}
+
+@media only screen and (max-width: 1035px) {
+    .mr {
+        display: none !important;
+        border: none !important;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .menu {
+        position: fixed;
+        right: -285px;
+        top: 61px;
+        background: #000000;
+        width: 280px;
+        height: 100%;
+        border-left: 1px solid;
+        border-top: 1px solid;
+    }
+
+
+    .menu ul li {
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding: 10px 0 10px 25px;
+            transform: skew(0);
+        //  border-bottom: 1px solid #484545;
+    }
+
+    .menu_icon {
+        position: relative;
+        right: 0;
+        display: inline-block;
+        top: 15px;
+    }
+
+    .menu_icon span {
+        width: 32px;
+        height: 3px;
+        background: #fff;
+        display: block;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    .menu_icon span:nth-child(2) {
+        margin: 4px 0;
+    }
+
+    .menu_icon_Class span:nth-child(2) {
+        display: none;
+    }
+
+    .menu_icon_Class span:nth-child(1) {
+        transform: rotate(40deg);
+    }
+
+    .menu_icon_Class span:nth-child(3) {
+        transform: rotate(-40deg);
+        margin-top: -3px;
+    }
+
+    .menuClass {
+        right: 0;
+        transition: 0.4s ease-in-out;
+        z-index: 1;
+    }
+
+
+
+    .menu ul li:hover .sub-menu-1 {
+        position: relative;
+        transform: translateX(-52%  ) skew(0);
+    }
+
+
+}
+
+
+
+// section 2
+
+
+.qq-quote {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 86%;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.qq-vr {
+    border-right: 1px solid;
+    height: 67px;
+}
+
+.q-aboutus {
+    color: #FAFFFB;
+    text-align: center;
+    width: 80%;
+}
+
+@media(max-width:"800px") {
+
+    .qq-vr {
+        display: none;
+    }
+}
+
+@media(max-width:"500px") {
+    .q-aboutus {
+        width: 100% !important;
+    }
+}
+
+
+@media(max-width:"1250px") {
+    .qq-quote {
+        position: relative;
+        background-color: #000000;
+        flex-wrap: wrap;
+
+    }
+
+    .q-aboutus {
+        width: 60%;
+    }
+
+    .qq-mt {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+  
+}

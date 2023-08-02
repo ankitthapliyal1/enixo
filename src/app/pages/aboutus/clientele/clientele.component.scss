@@ -1,0 +1,64 @@
+.qq-heading{
+    color: rgba(24, 24, 32, 0.76);
+    p{
+        font-size: 30px;
+    }
+}
+
+.tab-btn {
+    background-color: #E1E1E1;
+    border: none;
+    color: #000;
+    padding: 8px 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%; /* Adjust the width as per your preference */
+    box-sizing: border-box;
+  }
+
+  .tab-active{
+    background: #5DD8FF;
+  }
+
+  @media (min-width: 576px) {
+    .tab-btn {
+      display: inline-block;
+      width: auto;
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+
+.qq-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // margin-bottom: 50px;
+}
+
+.qq-team {
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    margin-bottom: 20px;
+    padding: 14px;
+
+}
+
+
+.qq-team img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .qq-team {
+        flex: 0 0 calc(50% - 10px);
+        /* Adjust the width as needed */
+        max-width: calc(50% - 10px);
+    }
+}
